@@ -1,4 +1,4 @@
-
+satya
 Open a terminal on the Ubuntu machine and run:
 
 # update
