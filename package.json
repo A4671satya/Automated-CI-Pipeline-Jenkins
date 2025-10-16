@@ -1,0 +1,15 @@
+{
+  "name": "simple-ci-app",
+  "version": "1.0.0",
+  "description": "Sample Node.js app for Jenkins CI pipeline",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "jest --runInBand --reporters=default --json --outputFile=tests/test-results.json",
+    "build": "mkdir -p build && cp -r src build/"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "node-mocks-http": "^1.17.2"
+  }
+}
