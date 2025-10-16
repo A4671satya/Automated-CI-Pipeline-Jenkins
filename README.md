@@ -1,4 +1,5 @@
-satya
+satya puppala
+
 Open a terminal on the Ubuntu machine and run:
 
 # update
